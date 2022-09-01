@@ -1,0 +1,23 @@
+.taskInformation{
+    width:100%;
+    border-radius:20px;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: coral;
+}
+
+.container_task{
+    display: flex;
+    flex-direction:row;
+}
+
+.content{
+    width: 70%;
+}
+
+.control{
+    display: flex;
+    align-items: center;
+
+}
+

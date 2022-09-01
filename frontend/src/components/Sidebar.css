@@ -1,0 +1,42 @@
+.sidebar_bg{
+    width: 20%;
+    height: 100vh;
+    background-color: #4DB3B3;
+    position: fixed;
+}
+
+.sidebar_bg > h2{
+    color:  #FCF4D9;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.container_sidebar{
+   
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.notselected {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+    font-size:20px;
+    margin-top:30px;
+}
+
+
+
+.selected {
+    color: #FFB85F;
+    font-weight: bold;
+    text-decoration: none;
+    font-size:25px;
+    margin-top:30px;
+    
+}
+
+.selected:hover {
+    color: #FFB85F;
+}
+
